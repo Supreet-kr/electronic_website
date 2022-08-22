@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Signup page
+</title>
+
+<style>
+
+body{
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/404/748/small_2x/abstract-background-with-soft-gradient-color-and-dynamic-shadow-on-background-background-for-wallpaper-eps-10-free-vector.jpg);
+}
+
+.box{
+border:2px solid black;
+height:500px;
+width:500px;
+margin:40 auto;
+padding:20px;
+background-color:white;
+box-shadow: 10px 10px 8px 7px #888888;
+}
+.label{
+font-size:20px;
+margin:auto;
+
+}
+.input{
+font-size:35px;
+margin:auto;
+}
+#button{
+height:42px;
+width:100px;
+margin-top:-23px;
+margin-left:200px;
+font-size:20px;
+background-color:#cfecec;
+}
+#signup{
+font-size:30px;
+margin-left:170px;
+margin-top:10px;
+
+}
+
+
+</style>
+<script>
+    function display_alert()
+    {
+    alert("your form details are submitted ");
+    }
+    </script>
+   
+</head>
+<body>
+<div class="box">
+<form>
+<h3 id="signup">SIGN UP</h3>
+<label class="label"><b>Username</b></label><br><br><input type="text" class="input"><br><br>
+<label class="label"><b>Email</b</label><br><br><input type="email" class="input"><br><br>
+<label class="label"><b>Password<b></label><br><br><input type="password" class="input"><br>
+<p>Already a member?<a href="login.html" id="link">Log in</a></p><br>
+
+<input type="submit" value="Sign up" id="button"  onclick="display_alert()">
+
+</form>
+</div>
+
+</body>
+</html>
