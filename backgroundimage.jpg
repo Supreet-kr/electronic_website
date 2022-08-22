@@ -1,0 +1,8 @@
+ <!DOCTYPE html> <html lang="en" dir="ltr"> <head> <title>Canva – Creating</title> <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" /> <meta name="apple-mobile-web-app-capable" content="yes" /> <meta name="robots" content="noindex" /> <link href="https://static.canva.com/static/images/favicon-1.ico" rel="shortcut icon"> </head> <body> <div id="root"> <main class="SEkd2Q PI2UVA"><section class="RQli8Q CMxPmA"></section><section class=GvmGew><aside><div class=_4jDhvw><div class=W2zUzw></div><div class=TTWQnw></div></div></aside><section class=NlDPOw><div class=Y6D0yA></div></section></section></main> </div> <form id="csrfPostForm" action="/design?create&amp;type=TABQqvMf5YM&amp;template=EAFC908rtPY&amp;category=tACZCp5JRWg&amp;analyticsCorrelationId=797a7fb6-eb44-429d-a5cd-1e2ea2d5c77e&amp;schema=web-2" method="POST"> <input type="hidden" id="csrfToken" name="csrfToken" value="UPkIHhyW3oojycg2mXWgcPwz6rjnJggloYKOO4a8mu5JbZFJRf4755rXOQRE2TSJMkloEN5ZDtE8TCP4t-shWlZgbKIFnrz6-Iwob07Ka1Yha_MI"> </form> <script>
+(function() {
+var postForm = document.getElementById('csrfPostForm');
+postForm.action += window.location.hash;
+postForm.submit();
+}());
+</script> <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"72e43ec8e9996ec4","token":"ef88e2b2e2894e859fa7553dc8d0441c","version":"2022.6.0","si":100}' crossorigin="anonymous"></script>
+</body> </html>
